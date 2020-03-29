@@ -33,7 +33,7 @@ At the time of writing the lab machines have not yet be configured. We will noti
 - Cool, now you are fully set up to begin developing on the project!
 
 ## Installing the tools Locally
-⚠️Please note that these are all Unix tools. If you are working on a Windows machine and want to install the tools yourself, we highly suggest you consider running in [WSL](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install) or in a [virtual machine](https://www.virtualbox.org/).
+⚠️Please note that these are all Unix tools. If you are working on a Windows machine and want to install the tools yourself, we highly suggest you consider running in [WSL](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install), in a [virtual machine](https://www.virtualbox.org/), or in a [unix emulator](https://docs.google.com/document/d/168KMBkCWROS8ohcwlNFwZOLXpyXFvBjeQQUEwXxuJRk/edit?usp=sharing).
 
 ⚠️There may be differences between the versions of the tools that you installed on your machine and the autograder's version of the tools. These potential differences may lead to unexpected failures on the autograder. Please be aware of this risk before choosing this option and if you are unsure which versions the autograder is using, please ask us.
 
