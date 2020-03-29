@@ -2,7 +2,8 @@
 This is a C++ demo project for CSE100. There are multiple ways of working on the PAs for this class: 
 1. Use the lab machines
 2. Use a devcontainer on your own computer.
-3. Install the required tools locally on your own computer.
+3. [![Run on Repl.it](https://repl.it/badge/github/ucsd-cse100-s20/demo-project)](https://repl.it/github/ucsd-cse100-s20/demo-project)
+4. Install the required tools locally on your own computer.
 
 ## Getting Started with the Lab Machines
 At the time of writing the lab machines have not yet be configured. We will notify the class on Piazza as soon as they become available.
