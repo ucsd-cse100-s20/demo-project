@@ -50,3 +50,14 @@ For the projects towards the end of the courses you will need additional tools:
 - python 3.6 or higher
 - lxml (can be installed through pip)
 - lcov
+
+## Compiling and running the HelloWorld.cpp file
+If you have successfully set up one of the environments above you can compile and run the C++ file in this project.
+
+To compile, run: `make`
+
+To execute the compiled binary, run: `./HelloWorld`
+
+## Next things to try
+1. Try to understand the Makefile. Google how g++ works and what the options we're passing into it mean.
+2. Try to debug HelloWorld using gdb.
