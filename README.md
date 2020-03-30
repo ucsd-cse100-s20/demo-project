@@ -13,7 +13,7 @@ At the time of writing the lab machines have not yet be configured. We will noti
 - ⚠️NOTE: Windows users, when installing Docker it may ask you if you want to configure it for running Windows containers or Linux containers. Choose Linux containers.
 - ⚠️NOTE: Windows users, if you are running Windows Home edition, first read the note below the next item!
 - Download and install Docker Desktop: https://www.docker.com/products/docker-desktop
-  - ⚠️NOTE: Docker Desktop for Windows requires the Hyper-V Windows feature which is not available on Home-edition. If you are running Windows Home-edition, either install Docker Toolbox instead: https://docs.docker.com/toolbox/toolbox_install_windows/ or upgrade to [Windows Education-edition](https://ucsd.onthehub.com/WebStore/OfferingDetails.aspx?o=9b3bfdc0-71e9-e611-9425-b8ca3a5db7a1&pmv=00000000-0000-0000-0000-000000000000)
+  - ⚠️NOTE: Docker Desktop for Windows requires the Hyper-V Windows feature which is not available on Home-edition. If you are running Windows Home-edition, either install Docker Toolbox instead: https://docs.docker.com/toolbox/toolbox_install_windows/ or upgrade for free to [Windows Education-edition](https://ucsd.onthehub.com/WebStore/OfferingDetails.aspx?o=9b3bfdc0-71e9-e611-9425-b8ca3a5db7a1&pmv=00000000-0000-0000-0000-000000000000)
 - Make sure docker is running
 - Download and install VSCode
 - Open VSCode, click the "Extensions" icon on the left and install the "Remote Development" extension by Microsoft
