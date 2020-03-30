@@ -1,5 +1,5 @@
 # C++ Demo Project for CSE100.
-This is a C++ demo project for CSE100. There are multiple ways of working on the PAs for this class: 
+This is a C++ demo project for CSE100. There are multiple ways of working on the PAs for this class:
 1. Use the lab machines
 2. Use a devcontainer on your own computer.
 3. Run on Azure Cloud Terminal.
@@ -17,12 +17,12 @@ At the time of writing the lab machines have not yet be configured. We will noti
 - Make sure docker is running
 - Download and install VSCode
 - Open VSCode, click the "Extensions" icon on the left and install the "Remote Development" extension by Microsoft
-![Remote Development Extension](images/install-remote-development-extension.png "Remote Development Extension") 
+![Remote Development Extension](images/install-remote-development-extension.png "Remote Development Extension")
 - Open this project in VSCode
 - There will be a popup asking if you want to open it in a devcontainer:
 ![Devcontainer Popup](images/reopen-in-container-popup.png "Devcontainer Popup")
 - Click "Reopen in Container"
-- If you don't see the popup, you can also open the devcontainer with a command. 
+- If you don't see the popup, you can also open the devcontainer with a command.
   - open the Command Palette in VSCode: `ctrl+shift+p` (`cmd+shift+p on mac`)
   - type "reopen" and hit enter
   ![Devcontainer Command](images/reopen-in-container-command.png "Devcontainer Command")
@@ -37,7 +37,7 @@ At the time of writing the lab machines have not yet be configured. We will noti
 ## Getting Started with Azure Cloud Terminal
 Sign up for an [Azure](https://azure.microsoft.com/en-us/free/students/) account.
 
-Open the Azure portal and open the terminal by clicking the terminal icon in the top right corner. 
+Open the Azure portal and open the terminal by clicking the terminal icon in the top right corner.
 ![Azure Cloud Terminal](images/AzureCloudTerminal.png "Azure Cloud Terminal")
 Make sure you choose Bash and not Powershell.
 
@@ -48,7 +48,7 @@ Navigate into your project: `cd demo-project`
 Start the editor: `code .`
 
 ## Installing the tools Locally
-⚠️Please note that these are all Unix tools. If you are working on a Windows machine and want to install the tools yourself, we highly suggest you consider running in [WSL](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install), in a [virtual machine](https://www.virtualbox.org/), or in a [unix emulator](https://docs.google.com/document/d/168KMBkCWROS8ohcwlNFwZOLXpyXFvBjeQQUEwXxuJRk/edit?usp=sharing).
+⚠️Please note that these are all Unix tools. If you are working on a Windows machine and want to install the tools yourself, we highly suggest you consider running in [WSL](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install), in a [virtual machine](https://www.virtualbox.org/).
 
 ⚠️There may be differences between the versions of the tools that you installed on your machine and the autograder's version of the tools. These potential differences may lead to unexpected failures on the autograder. Specifically, if you install the latest g++ version and use the latest C++ features your code may not compile on the autograder. You can expect C++11 features to work on the autograder.
 
@@ -64,7 +64,7 @@ For the projects towards the end of the courses you will need additional tools:
 - cmake
 - python 3.6 or higher
 - lxml (can be installed through pip)
-- lcov
+- lcov (with an L not I)
 
 ## Compiling and running the HelloWorld.cpp file
 If you have successfully set up one of the environments above you can compile and run the C++ file in this project.
