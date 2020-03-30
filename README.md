@@ -4,7 +4,7 @@ This is a C++ demo project for CSE100. There are multiple ways of working on the
 2. Use a devcontainer on your own computer.
 3. Run on Azure Cloud Terminal.
 4. Install the required tools locally on your own computer.
-5. [![Run on Repl.it](https://repl.it/badge/github/ucsd-cse100-s20/demo-project)](https://repl.it/github/ucsd-cse100-s20/demo-project) 
+5. [![Run on Repl.it](https://repl.it/badge/github/ucsd-cse100-s20/demo-project)](https://repl.it/github/ucsd-cse100-s20/demo-project) (⚠️please note that this is only meant as a backup option for the first PA)
 
 ## Getting Started with the Lab Machines
 At the time of writing the lab machines have not yet be configured. We will notify the class on Piazza as soon as they become available.
