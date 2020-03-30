@@ -2,8 +2,9 @@
 This is a C++ demo project for CSE100. There are multiple ways of working on the PAs for this class: 
 1. Use the lab machines
 2. Use a devcontainer on your own computer.
-3. [![Run on Repl.it](https://repl.it/badge/github/ucsd-cse100-s20/demo-project)](https://repl.it/github/ucsd-cse100-s20/demo-project)
+3. Run on Azure Cloud Terminal.
 4. Install the required tools locally on your own computer.
+5. [![Run on Repl.it](https://repl.it/badge/github/ucsd-cse100-s20/demo-project)](https://repl.it/github/ucsd-cse100-s20/demo-project) 
 
 ## Getting Started with the Lab Machines
 At the time of writing the lab machines have not yet be configured. We will notify the class on Piazza as soon as they become available.
@@ -32,6 +33,18 @@ At the time of writing the lab machines have not yet be configured. We will noti
   - ℹ️If you don't see a TERMINAL tab in the bottom panel of your screen, hit ``ctrl+` ``
   - ℹ️If you don't see a "Bash" option in the dropdown, click the plus icon to the right of the dropdown
 - Cool, now you are fully set up to begin developing on the project!
+
+## Getting Started with Azure Cloud Terminal
+Sign up for an [Azure](https://azure.microsoft.com/en-us/free/students/) account.
+
+Open the Azure portal and open the terminal by clicking the terminal icon in the top right corner. Make sure you choose Bash and not Powershell.
+![Azure Cloud Terminal](images/AzureCloudTerminal.png "Azure Cloud Terminal")
+
+Next, navigate to your clouddrive directory: `cd ~/clouddrive`.  
+Create a directory for your git projects: `mkdir git && cd git`. 
+Next, clone your github project: `git clone https://github.com/ucsd-cse100-s20/demo-project.git`. 
+Navigate into your project: `cd demo-project`. 
+Start the editor: `code .`. 
 
 ## Installing the tools Locally
 ⚠️Please note that these are all Unix tools. If you are working on a Windows machine and want to install the tools yourself, we highly suggest you consider running in [WSL](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install), in a [virtual machine](https://www.virtualbox.org/), or in a [unix emulator](https://docs.google.com/document/d/168KMBkCWROS8ohcwlNFwZOLXpyXFvBjeQQUEwXxuJRk/edit?usp=sharing).
