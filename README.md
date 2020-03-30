@@ -37,14 +37,15 @@ At the time of writing the lab machines have not yet be configured. We will noti
 ## Getting Started with Azure Cloud Terminal
 Sign up for an [Azure](https://azure.microsoft.com/en-us/free/students/) account.
 
-Open the Azure portal and open the terminal by clicking the terminal icon in the top right corner. Make sure you choose Bash and not Powershell.
+Open the Azure portal and open the terminal by clicking the terminal icon in the top right corner. 
 ![Azure Cloud Terminal](images/AzureCloudTerminal.png "Azure Cloud Terminal")
+Make sure you choose Bash and not Powershell.
 
-Next, navigate to your clouddrive directory: `cd ~/clouddrive`.  
-Create a directory for your git projects: `mkdir git && cd git`. 
-Next, clone your github project: `git clone https://github.com/ucsd-cse100-s20/demo-project.git`. 
-Navigate into your project: `cd demo-project`. 
-Start the editor: `code .`. 
+Next, navigate to your clouddrive directory: `cd ~/clouddrive`  
+Create a directory for your git projects: `mkdir git && cd git`  
+Next, clone your github project: `git clone https://github.com/ucsd-cse100-s20/demo-project.git`  
+Navigate into your project: `cd demo-project`  
+Start the editor: `code .`
 
 ## Installing the tools Locally
 ⚠️Please note that these are all Unix tools. If you are working on a Windows machine and want to install the tools yourself, we highly suggest you consider running in [WSL](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install), in a [virtual machine](https://www.virtualbox.org/), or in a [unix emulator](https://docs.google.com/document/d/168KMBkCWROS8ohcwlNFwZOLXpyXFvBjeQQUEwXxuJRk/edit?usp=sharing).
