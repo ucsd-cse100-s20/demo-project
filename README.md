@@ -50,7 +50,7 @@ Start the editor: `code .`
 ## Installing the tools Locally
 ⚠️Please note that these are all Unix tools. If you are working on a Windows machine and want to install the tools yourself, we highly suggest you consider running in [WSL](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install), in a [virtual machine](https://www.virtualbox.org/), or in a [unix emulator](https://docs.google.com/document/d/168KMBkCWROS8ohcwlNFwZOLXpyXFvBjeQQUEwXxuJRk/edit?usp=sharing).
 
-⚠️There may be differences between the versions of the tools that you installed on your machine and the autograder's version of the tools. These potential differences may lead to unexpected failures on the autograder. Please be aware of this risk before choosing this option and if you are unsure which versions the autograder is using, please ask us.
+⚠️There may be differences between the versions of the tools that you installed on your machine and the autograder's version of the tools. These potential differences may lead to unexpected failures on the autograder. Specifically, if you install the latest g++ version and use the latest C++ features your code may not compile on the autograder. You can expect C++11 features to work on the autograder.
 
 In order to work on the programming assignments, you will at a minimum have to install the following tools for the PA's:
 - g++
